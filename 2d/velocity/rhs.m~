@@ -1,0 +1,6 @@
+function [F,G]=rhs(f1,f2,p_x,p_y);
+
+	F = -f1-p_x;
+	G = -f2-p_y;
+
+end
